@@ -3,7 +3,7 @@
         <SocialHead
         :title="article.title"
         :description="article.description"
-        :image="article.image"
+        :image="article.img"
         />
 
         <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700 title">{{article.title}}</h1>
