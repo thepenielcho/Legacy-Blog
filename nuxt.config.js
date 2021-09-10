@@ -4,15 +4,80 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Peniel Cho',
+    title: 'PenieLog',
     htmlAttrs: {
       lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'This is PenieLog: Peniel Blog.' },
+      { name: 'format-detection', content: 'telephone=no' },
+      // Twitter
+      // Test on: https://cards-dev.twitter.com/validator
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@ChoPeniel' },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://www.blog.penielcho.com/'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'PenieLog'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'This is PenieLog: Peniel Blog.'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: ''
+      },
+
+      // Open Graph
+      // Test on: https://developers.facebook.com/tools/debug/
+      { hid: 'og:site_name', property: 'og:site_name', content: 'PenieLog' },
+      { hid: 'og:type', property: 'og:type', content: 'Blog' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.blog.penielcho.com/'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'PenieLog'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'This is PenieLog: Peniel Blog.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: ''
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: ''
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: ''
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

@@ -1,7 +1,12 @@
 <template>
     <div class="related max-w-3xl mx-auto py-10 md:py-16">
+        <SocialHead
+        :title="article.title"
+        :description="article.description"
+        :image="article.image"
+        />
 
-        <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
+        <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700 title">{{article.title}}</h1>
         <p class="text-base md:text-lg text-gray-500 text-center">{{article.datetime}} · by {{article.author}}</p>
         <img :src="require(`~/assets/resources/${article.img}`)" alt="" class="mt-6 mb-8 md:rounded-2xl md:my-10" />
         
@@ -25,7 +30,22 @@ export default {
         .fetch()
 
         return { article, prev, next }
-    }
+    },
+
+    head() {
+        return {
+            title: this.article.title,
+            htmlAttrs: {
+            lang: 'ko'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'This is PenieLog, Peniel Blog.' },
+            { name: 'format-detection', content: 'telephone=no' }
+            ],
+        }
+    },
 }
 </script>
 
