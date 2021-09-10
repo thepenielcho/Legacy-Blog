@@ -40,7 +40,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: ''
+        content: 'https://www.blog.penielcho.com/tc-image.png'
       },
 
       // Open Graph
@@ -66,17 +66,17 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: ''
+        content: 'https://www.blog.penielcho.com/og-image.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: ''
+        content: 'https://www.blog.penielcho.com/og-image.png'
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: ''
+        content: 'PenieLog Logo Image'
       }
     ],
     link: [
