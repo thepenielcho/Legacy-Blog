@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-4xl mx-auto">
     <div class="px-5">
-        <div class="pt-12 pb-4 text-xl md:text-2xl text-gray-700 font-semibold">English | 영어</div>
-        <div class="text-gray-500 font-normal text-sm md:text-base">This is a list of posts written in English. Some are oriniginally written in English, Some are not.</div>
+        <div class="pt-12 pb-4 text-xl md:text-2xl text-gray-700 font-semibold">프로젝트 | Projects</div>
+        <div class="text-gray-500 font-normal text-sm md:text-base">프로젝트 관련 글 모음입니다.</div>
     </div>
 
     <div class="max-w-4xl grid grid-cols-1 md:grid-cols-1 mt-11 md:mt-12 mb-8 md:mb-12">
@@ -21,7 +21,6 @@
           </nuxt-link>
         </div>
     </div>
-
   </div>
 </template>
 
@@ -29,8 +28,8 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('blog', params.slug)
-      .where({language: 'English'})
-      .only(['title', 'description', 'img', 'datetime', 'category', 'author', 'slug', 'language'])
+      .where({language: 'Korean'})
+      .only(['title', 'description', 'img', 'datetime', 'category', 'author', 'slug'])
       // .sortBy('createdAt', 'asc')
       .sortBy('datetime', 'desc')
       .fetch();
@@ -39,9 +38,9 @@ export default {
     }
   },
   head: {
-    title: 'English Articles  | PenieLog',
+    title: 'Ptojects | PenieLog',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },

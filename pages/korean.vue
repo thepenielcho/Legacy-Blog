@@ -38,7 +38,7 @@ export default {
     }
   },
   head: {
-    title: 'PenieLog | Korean Articles',
+    title: 'Korean Articles | PenieLog',
     htmlAttrs: {
       lang: 'ko'
     },
