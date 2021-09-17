@@ -5,7 +5,8 @@ description: matplotlib의 한글 깨짐 해결 방법은 Colab과 Jupyter 각�
 slug: hanguel-error-fix-matplotlib
 img: hanguel-error-fix-matplotlib.png
 datetime: 2021. 07. 08.
-category: Matplotlib
+category: 웹_개발
+categoryeng: front-end
 author: 신윤진
 language: English
 featured: none

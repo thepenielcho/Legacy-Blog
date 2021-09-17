@@ -28,7 +28,7 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('blog', params.slug)
-      .where({language: 'Korean'})
+      .where({category: '데이터'})
       .only(['title', 'description', 'img', 'datetime', 'category', 'author', 'slug'])
       // .sortBy('createdAt', 'asc')
       .sortBy('datetime', 'desc')

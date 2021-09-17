@@ -4,7 +4,8 @@ description: Folium choropleth에서 colorbar의 인덱스(숫자)를 바꾸는 
 slug: changing-colorbar-index-of-folium-choropleth
 img: not-yet-generated.png
 datetime: 2021. 08. 31.
-category: Folium
+category: 데이터
+categoryeng: data-science
 author: 신윤진
 language: English
 featured: none

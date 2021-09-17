@@ -5,7 +5,8 @@ description: 파이썬 확장자로 작성한 파이썬 모듈이 Colab에서 �
 slug: open-py-on-colab
 img: open-py-on-colab.png
 datetime: 2021. 07. 03.
-category: Google Colaboratory
+category: 데이터
+categoryeng: data-science
 author: 신윤진
 language: Korean
 featured: none

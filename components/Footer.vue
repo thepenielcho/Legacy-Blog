@@ -5,7 +5,7 @@
 
                 <div class="justify-around md:justify-start px-8 md:px-0 items-start flex">
                     <ul class="ml-0 w-25 md:w-28 md:m-0">
-                        <li class="mb-3 font-medium text-gray-700">Related</li>
+                        <li class="mb-3 font-medium text-gray-700">Links</li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://github.com/thepenielcho" target="blank">GitHub</a></li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://www.linkedin.com/in/peniel-cho/" target="blank">Linkedin</a></li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://twitter.com/ChoPeniel" target="blank">Twitter</a></li>

@@ -6,6 +6,7 @@
         :image="article.img"
         />
 
+        <nuxt-link :to='`${article.categoryeng}`'><p class="text-base md:text-lg text-gray-400 text-center mb-2 hover:underline">{{article.category}}</p></nuxt-link>
         <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700 title">{{article.title}}</h1>
         <p class="text-base md:text-lg text-gray-500 text-center">{{article.datetime}} · by {{article.author}}</p>
         <img :src="require(`~/assets/resources/${article.img}`)" alt="" class="mt-6 mb-8 md:rounded-2xl md:my-10" />
