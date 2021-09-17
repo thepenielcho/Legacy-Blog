@@ -26,6 +26,14 @@
     </div>
 
     <div class="px-5">
+      <div class="pt-4 md:pt-6 text-xl md:text-2xl text-gray-700 font-semibold mb-4 md:mb-6">글 검색하기</div>
+      <div class="rounded-xl border-2 px-4 md:px-5 py-2.5 md:py-3 text-gray-400 flex items-center mb-4">
+        <div class="mr-2 md:mr-3"><SearchIcon /></div>
+        <div class="text-sm md:text-base">다양한 주제의 글을 검색해보세요</div>
+      </div>
+    </div>
+
+    <div class="px-5">
         <div class="pt-8 md:pt-11 pb-4 text-xl md:text-2xl text-gray-700 font-semibold">최근 업로드</div>
         <div class="text-gray-500 font-normal text-sm md:text-base">최근 업로드 된 글 모음입니다. 언어별로 글을 모아 보고 싶으시다면 상단의 한글, ENG 버튼을 눌러주세요.</div>
     </div>
