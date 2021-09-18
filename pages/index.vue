@@ -25,12 +25,10 @@
 
     </div>
 
-    <div class="px-5">
-      <div class="pt-4 md:pt-6 text-xl md:text-2xl text-gray-700 font-semibold mb-4 md:mb-6">글 검색하기</div>
-      <div class="rounded-xl border-2 px-4 md:px-5 py-2.5 md:py-3 text-gray-400 flex items-center mb-4">
-        <div class="mr-2 md:mr-3"><SearchIcon /></div>
-        <div class="text-sm md:text-base">다양한 주제의 글을 검색해보세요</div>
-      </div>
+    <div class="px-5 pt-6">
+
+      <Search />
+
     </div>
 
     <div class="px-5">
@@ -42,7 +40,7 @@
       <nuxt-link to='front-end'><span class="inline-block px-3 py-1.5 mr-1 md:mr-2 mb-2 rounded-full bg-gray-100 text-gray-400 text-sm transition hover:bg-gray-200 hover:duration-100">#<span class="text-gray-600 text-sm">웹_개발</span></span></nuxt-link>
       <nuxt-link to='data-science'><span class="inline-block px-3 py-1.5 mr-1 md:mr-2 mb-2 rounded-full bg-gray-100 text-gray-400 text-sm transition hover:bg-gray-200 hover:duration-100">#<span class="text-gray-600 text-sm">데이터</span></span></nuxt-link>
       <nuxt-link to='projects'><span class="inline-block px-3 py-1.5 mr-1 md:mr-2 mb-2 rounded-full bg-gray-100 text-gray-400 text-sm transition hover:bg-gray-200 hover:duration-100">#<span class="text-gray-600 text-sm">프로젝트</span></span></nuxt-link>
-      <nuxt-link to='uncategorized'><span class="inline-block px-3 py-1.5 mr-1 md:mr-2 mb-2 rounded-full bg-gray-100 text-gray-400 text-sm transition hover:bg-gray-200 hover:duration-100">#<span class="text-gray-600 text-sm">무소속</span></span></nuxt-link>
+      <nuxt-link to='uncategorized'><span class="inline-block px-3 py-1.5 mr-1 md:mr-2 mb-2 rounded-full bg-gray-100 text-gray-400 text-sm transition hover:bg-gray-200 hover:duration-100">#<span class="text-gray-600 text-sm">무소속</span></span></nuxt-link>    
     </div>
 
     <div class="max-w-4xl grid grid-cols-1 md:grid-cols-1 mt-5 md:mt-6 mb-8 md:mb-12">
