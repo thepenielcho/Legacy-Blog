@@ -80,13 +80,7 @@ export default {
       articles,
       featured
     }
-  },
-  head: {
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'user-scalable=no' },
-    ]
-  },
+  }
 }
 </script>
 
