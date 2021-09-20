@@ -7,7 +7,7 @@
 
     <div class="max-w-4xl grid grid-cols-1 mt-6 md:mt-10 mb-5 px-4 md:px-0">
 
-        <div class="rounded-2xl m-0 md:mx-3 md:mb-6 px-2 md:px-6 py-2.5 md:py-6 group bg-gradient-to-r from-blue-100 via-gray-100 to-gray-200" v-for="ftarticle of featured" :key="ftarticle">
+        <div class="shadow-lg md:shadow-xl rounded-2xl m-0 md:mx-3 md:mb-6 px-2 md:px-6 py-2.5 md:py-6 group bg-gradient-to-r from-blue-100 via-gray-100 to-gray-200" v-for="ftarticle of featured" :key="ftarticle">
           <nuxt-link class="flex justify-between" :to="{ name: 'slug', params: { slug: ftarticle.slug } }">
             <div class="hidden md:block w-1/2">
               <img class="w-full rounded-xl" :src="require(`~/assets/resources/${ftarticle.img}`)" alt=""/>

@@ -1,12 +1,12 @@
 <template>
       <div>
-        <div class="w-full rounded-xl border-2 flex items-center mb-4 py-2.5 md:py-3.5">
+        <div class="shadow-md w-full rounded-xl border-2 flex items-center mb-4 py-2.5 md:py-3.5">
             <SearchIcon />
             <input placeholder="다양한 주제의 글을 검색해보세요" v-model="query" type="search" autocomplete="off" 
             class="flex-auto text-sm md:text-base text-gray-600 pr-3.5 md:pr-6 flex items-center placeholder-text-gray-400" />
         </div>
 
-        <ul v-if="articles.length" class="rounded-lg border-2 px-4">
+        <ul v-if="articles.length" class="shadow-md rounded-lg border-2 px-4">
           <li class="text-gray-500 py-2.5 md:py-3.5 border-b text-sm md:text-base lastborder" v-for="article of articles" :key="article.slug">
             <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">{{ article.title }}</NuxtLink>
           </li>
