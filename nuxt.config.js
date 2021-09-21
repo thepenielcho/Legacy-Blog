@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'PenieLog',
+    title: 'PENIELog',
     htmlAttrs: {
       lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'This is PenieLog: Peniel Blog.' },
+      { hid: 'description', name: 'description', content: 'This is PENIELog: Peniel Blog.' },
       { name: 'format-detection', content: 'telephone=no' },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
@@ -29,13 +29,13 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'PenieLog'
+        content: 'PENIELog'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'This is PenieLog: Peniel Blog.'
+          'This is PENIELog: Peniel Blog.'
       },
       {
         hid: 'twitter:image',
@@ -45,7 +45,7 @@ export default {
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
-      { hid: 'og:site_name', property: 'og:site_name', content: 'PenieLog' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'PENIELog' },
       { hid: 'og:type', property: 'og:type', content: 'Blog' },
       {
         hid: 'og:url',
@@ -55,13 +55,13 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'PenieLog'
+        content: 'PENIELog'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'This is PenieLog: Peniel Blog.'
+          'This is PENIELog: Peniel Blog.'
       },
       {
         hid: 'og:image',
@@ -76,7 +76,7 @@ export default {
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'PenieLog Logo Image'
+        content: 'PENIELog Logo Image'
       }
     ],
     link: [

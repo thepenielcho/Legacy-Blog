@@ -38,14 +38,14 @@ export default {
     }
   },
   head: {
-    title: 'Ptojects | PenieLog',
+    title: 'Projects | PENIELog',
     htmlAttrs: {
       lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'This is PenieLog, Peniel Blog.' },
+      { hid: 'description', name: 'description', content: 'This is PENIELog, Peniel Blog.' },
       { name: 'format-detection', content: 'telephone=no' }
     ]
   },
