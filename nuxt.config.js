@@ -15,11 +15,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
-      {
-        hid: 'twitter:card',
-        name: 'twitter:card',
-        content: 'summary_large_image'
-      },
+      // {
+      //   hid: 'twitter:card',
+      //   name: 'twitter:card',
+      //   content: 'summary_large_image'
+      // },
       { hid: 'twitter:site', name: 'twitter:site', content: '@ChoPeniel' },
       {
         hid: 'twitter:url',
@@ -37,11 +37,11 @@ export default {
         content:
           'This is PENIELog: Peniel Blog.'
       },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: 'https://www.blog.penielcho.com/tc-image.png'
-      },
+      // {
+      //   hid: 'twitter:image',
+      //   name: 'twitter:image',
+      //   content: 'https://www.blog.penielcho.com/tc-image.png'
+      // },
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
