@@ -45,39 +45,39 @@ export default {
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
-      // { hid: 'og:site_name', property: 'og:site_name', content: 'PENIELog' },
-      // { hid: 'og:type', property: 'og:type', content: 'Blog' },
-      // {
-      //   hid: 'og:url',
-      //   property: 'og:url',
-      //   content: 'https://www.blog.penielcho.com/'
-      // },
-      // {
-      //   hid: 'og:title',
-      //   property: 'og:title',
-      //   content: 'PENIELog'
-      // },
-      // {
-      //   hid: 'og:description',
-      //   property: 'og:description',
-      //   content:
-      //     'This is PENIELog: Peniel Blog.'
-      // },
-      // {
-      //   hid: 'og:image',
-      //   property: 'og:image',
-      //   content: 'https://www.blog.penielcho.com/og-image.png'
-      // },
-      // {
-      //   hid: 'og:image:secure_url',
-      //   property: 'og:image:secure_url',
-      //   content: 'https://www.blog.penielcho.com/og-image.png'
-      // },
-      // {
-      //   hid: 'og:image:alt',
-      //   property: 'og:image:alt',
-      //   content: 'PENIELog Logo Image'
-      // }
+      { hid: 'og:site_name', property: 'og:site_name', content: 'PENIELog' },
+      { hid: 'og:type', property: 'og:type', content: 'Blog' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.blog.penielcho.com/'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'PENIELog'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'This is PENIELog: Peniel Blog.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://www.blog.penielcho.com/og-image.png'
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: 'https://www.blog.penielcho.com/og-image.png'
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: 'PENIELog Logo Image'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
