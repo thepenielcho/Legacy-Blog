@@ -37,11 +37,11 @@ export default {
         content:
           'This is PENIELog: Peniel Blog.'
       },
-      // {
-      //   hid: 'twitter:image',
-      //   name: 'twitter:image',
-      //   content: 'https://www.blog.penielcho.com/tc-image.png'
-      // },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://www.blog.penielcho.com/tc-image.png'
+      },
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
@@ -80,7 +80,12 @@ export default {
       // }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: `https://www.blog.penielcho.com`
+      }
     ]
   },
 
