@@ -24,7 +24,7 @@ export default {
       {
         hid: 'twitter:url',
         name: 'twitter:url',
-        content: 'https://www.blog.penielcho.com/'
+        content: 'https://www.blog.penielcho.com'
       },
       {
         hid: 'twitter:title',
@@ -50,7 +50,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://www.blog.penielcho.com/'
+        content: 'https://www.blog.penielcho.com'
       },
       {
         hid: 'og:title',
