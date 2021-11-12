@@ -4,8 +4,8 @@ description: 콜랩, 주피터에선 잘 열리던 ipynb 파일이 깃헙에서�
 slug: github-ipynb-loading
 img: ipython-github-error.png
 datetime: 2021. 07. 12.
-category: data-science
-categoryeng: 데이터
+category: 데이터
+categoryeng: data-science
 author: 조용주
 language: Korean
 featured: none
