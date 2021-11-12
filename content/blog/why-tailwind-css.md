@@ -6,6 +6,7 @@ slug: why-tailwind-css
 datetime: 2021. 11. 12.
 category: 웹_개발
 author: 조용주
+img: tailwind.jpeg
 categoryeng: front-end
 language: Korean
 featured: none
