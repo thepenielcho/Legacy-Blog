@@ -3,7 +3,7 @@
         <div class="shadow-sm md:shadow w-full rounded-xl border-2 flex items-center mb-4 py-2.5 md:py-3.5">
             <SearchIcon />
             <input placeholder="다양한 주제의 글을 검색해보세요" v-model="query" type="search" autocomplete="off" 
-            class="flex-auto text-sm md:text-base text-gray-600 pr-3.5 md:pr-6 flex items-center placeholder-text-gray-400" />
+            class="flex-auto text-base md:text-base text-gray-600 pr-3.5 md:pr-6 flex items-center placeholder-text-gray-400" />
         </div>
 
         <ul v-if="articles.length" class="shadow-sm md:shadow rounded-lg border-2 px-4">
