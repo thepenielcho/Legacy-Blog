@@ -13,7 +13,7 @@ featured: Featured
 ---
 
 
-[지난 포스트](https://www.blog.cosadama.com/tailwind-on-nuxt)에서는 왜 Tailwind가 좋은지에 대해 알아봤다면, 이번엔 실제 프로젝트에 Tailwind CSS를 어떻게 적용하는지에 대해 알아볼게요. Tailwind는 다양한 프로젝트에 versatile하게 사용할 수 있는 프레임워크지만, 오늘은 제가 요즘 가장 많이 사용하고 있는 Vue 프레임워크인 Nuxt 환경을 기반으로 Tailwind CSS 사용법을 말씀드리도록 할게요. 사실 Nuxt라고 해도 다른 프레임워크들과 크게 다르지 않을 거에요.
+[지난 포스트](https://www.blog.penielcho.com/tailwind-on-nuxt)에서는 왜 Tailwind가 좋은지에 대해 알아봤다면, 이번엔 실제 프로젝트에 Tailwind CSS를 어떻게 적용하는지에 대해 알아볼게요. Tailwind는 다양한 프로젝트에 versatile하게 사용할 수 있는 프레임워크지만, 오늘은 제가 요즘 가장 많이 사용하고 있는 Vue 프레임워크인 Nuxt 환경을 기반으로 Tailwind CSS 사용법을 말씀드리도록 할게요. 사실 Nuxt라고 해도 다른 프레임워크들과 크게 다르지 않을 거에요.
 
 ![Tailwind 지원 프레임워크](tailwind-on-nuxt/01.png)
 
