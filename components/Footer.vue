@@ -8,15 +8,14 @@
                         <li class="mb-3 font-medium text-gray-700">Links</li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://github.com/thepenielcho" target="blank">GitHub</a></li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://www.linkedin.com/in/peniel-cho/" target="blank">Linkedin</a></li>
-                        <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://twitter.com/ChoPeniel" target="blank">Twitter</a></li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://blog.naver.com/penielcho98" target="blank">PenieLife</a></li>
+                        <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://www.socio.penielcho.com" target="blank">Penielogy</a></li>
                     </ul>
 
                     <ul class="w-25 md:w-28 md:ml-0 md:m-0">
                         <li class="mb-3 font-medium text-gray-700">Contact</li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="mailto:mail@penielcho.com">Email</a></li>
                         <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://www.linkedin.com/in/peniel-cho/" target="blank">Linkedin</a></li>
-                        <li class="mb-1.5 font-normal text-gray-500 hover:underline text-sm"><a href="https://twitter.com/ChoPeniel" target="blank">Twitter</a></li>
                     </ul>
                 </div>
 
