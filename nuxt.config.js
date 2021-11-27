@@ -50,7 +50,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+        content: 'https://www.blog.penielcho.com'
       },
       {
         hid: 'og:title',
@@ -81,11 +81,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // {
-      //   hid: 'canonical',
-      //   rel: 'canonical',
-      //   href: `https://www.blog.penielcho.com`
-      // }
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: `https://www.blog.penielcho.com`
+      }
     ]
   },
 
