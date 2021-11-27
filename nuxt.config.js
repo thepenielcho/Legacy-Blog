@@ -50,7 +50,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://www.blog.penielcho.com'
+        content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
       },
       {
         hid: 'og:title',
