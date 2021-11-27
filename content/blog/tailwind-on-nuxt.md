@@ -9,7 +9,7 @@ category: 웹_개발
 author: 조용주
 categoryeng: front-end
 language: Korean
-featured: Featured
+featured: none
 
 ---
 
