@@ -45,13 +45,13 @@ export default {
             { hid: 'description', name: 'description', content: 'This is PENIELog, Peniel Blog.' },
             { name: 'format-detection', content: 'telephone=no' }
             ],
-            link: [
-                {
-                hid: 'canonical',
-                rel: 'canonical',
-                href: `https://www.blog.penielcho.com/${this.$route.params.slug}`
-                }
-            ]
+            // link: [
+            //     {
+            //     hid: 'canonical',
+            //     rel: 'canonical',
+            //     href: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+            //     }
+            // ]
         }
     },
 }
