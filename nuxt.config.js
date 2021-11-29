@@ -16,32 +16,32 @@ export default {
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
       {
-        hid: 'twitter:card',
+        hid: 't-type',
         name: 'twitter:card',
         content: 'summary_large_image'
       },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@ChoPeniel' },
-      {
-        hid: 'twitter:url',
-        name: 'twitter:url',
-        content: 'https://www.blog.penielcho.com'
-      },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'PENIELog'
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content:
-          'This is PENIELog: Peniel Blog.'
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: 'https://www.blog.penielcho.com/tc-image.png'
-      },
+      // { hid: 'twitter:site', name: 'twitter:site', content: '@ChoPeniel' },
+      // {
+      //   hid: 'twitter:url',
+      //   name: 'twitter:url',
+      //   content: 'https://www.blog.penielcho.com'
+      // },
+      // {
+      //   hid: 'twitter:title',
+      //   name: 'twitter:title',
+      //   content: 'PENIELog'
+      // },
+      // {
+      //   hid: 'twitter:description',
+      //   name: 'twitter:description',
+      //   content:
+      //     'This is PENIELog: Peniel Blog.'
+      // },
+      // {
+      //   hid: 'twitter:image',
+      //   name: 'twitter:image',
+      //   content: 'https://www.blog.penielcho.com/tc-image.png'
+      // },
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
