@@ -116,7 +116,6 @@ export default {
             name: 'og:url',
             content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
             },
-            // { hid: 'description', name: 'description', content: 'This is PENIELog, Peniel Blog.' },
             // { name: 'format-detection', content: 'telephone=no' }
             ],
             // link: [
