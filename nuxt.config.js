@@ -113,7 +113,15 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://www.blog.penielcho.com/'
+    hostname: 'https://www.blog.penielcho.com',
+    routes: [
+      '/createdat-based-on-git-history/',
+      '/github-ipynb-loading/',
+      '/google-analytics-for-github-pages/',
+      '/google-analytics-tracking-id/',
+      '/tailwind-on-nuxt/',
+      '/why-tailwind-css/',
+    ]
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
