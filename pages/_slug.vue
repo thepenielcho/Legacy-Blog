@@ -56,8 +56,13 @@ export default {
             content: this.article.description
             },
             {
-            hid: 'twitter:image',
-            name: 'twitter:image',
+                hid: 'twitter:card',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+            hid: 'twitter:image:src',
+            name: 'twitter:image:src',
             content: this.article.img
             },
             {
