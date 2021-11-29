@@ -13,6 +13,8 @@
         
         <nuxt-content :document="article" class="prose max-w-3xl custom-text px-6"/>
 
+        <nuxt-link :to="`https://www.blog.penielcho.com/${this.$route.params.slug}`">Link</nuxt-link>
+
         <Prevnext :prev="prev" :next="next" />
 
     </div>
@@ -56,7 +58,7 @@ export default {
             {
             hid: 'twitter:image',
             name: 'twitter:image',
-            content: this.article.image
+            content: this.article.img
             },
             {
             hid: 'twitter:image:alt',
@@ -64,9 +66,9 @@ export default {
             content: this.article.title
             },
             {
-                hid: 'twitter:url',
-                name: 'twitter:url',
-                content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+            hid: 'twitter:url',
+            name: 'twitter:url',
+            content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
             },
             {
             hid: 'og:title',
@@ -81,12 +83,12 @@ export default {
             {
             hid: 'og:image',
             property: 'og:image',
-            content: this.article.image
+            content: this.article.img
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: this.article.image
+            content: this.article.img
             },
             {
             hid: 'og:image:alt',
@@ -94,9 +96,9 @@ export default {
             content: this.article.title
             },
             {
-                hid: 'og:url',
-                name: 'og:url',
-                content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+            hid: 'og:url',
+            name: 'og:url',
+            content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
             },
             // { hid: 'description', name: 'description', content: 'This is PENIELog, Peniel Blog.' },
             // { name: 'format-detection', content: 'telephone=no' }
