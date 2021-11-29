@@ -45,35 +45,45 @@ export default {
             meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            // {
+            // hid: 'twitter:title',
+            // name: 'twitter:title',
+            // content: this.article.title
+            // },
+            // {
+            // hid: 'twitter:description',
+            // name: 'twitter:description',
+            // content: this.article.description
+            // },
             {
-            hid: 'twitter:title',
-            name: 'twitter:title',
-            content: this.article.title
-            },
-            {
-            hid: 'twitter:description',
-            name: 'twitter:description',
-            content: this.article.description
-            },
-            {
-                hid: 'twitter:card',
+                hid: 't-type',
                 name: 'twitter:card',
                 content: 'summary_large_image'
             },
+            // {
+            // hid: 'twitter:image',
+            // name: 'twitter:image',
+            // content: this.article.img
+            // },
+            // {
+            // hid: 'twitter:image:src',
+            // name: 'twitter:image:src',
+            // content: this.article.img
+            // },
+            // {
+            // hid: 'twitter:image:alt',
+            // name: 'twitter:image:alt',
+            // content: this.article.title
+            // },
+            // {
+            // hid: 'twitter:url',
+            // name: 'twitter:url',
+            // content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+            // },
             {
-            hid: 'twitter:image:src',
-            name: 'twitter:image:src',
-            content: this.article.img
-            },
-            {
-            hid: 'twitter:image:alt',
-            name: 'twitter:image:alt',
-            content: this.article.title
-            },
-            {
-            hid: 'twitter:url',
-            name: 'twitter:url',
-            content: `https://www.blog.penielcho.com/${this.$route.params.slug}`
+            hid: 'og-type',
+            property: 'og:type',
+            content: 'website'
             },
             {
             hid: 'og:title',
