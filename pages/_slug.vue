@@ -13,7 +13,7 @@
         
         <nuxt-content :document="article" class="prose max-w-3xl custom-text px-6"/>
 
-        <nuxt-link :to="`https://www.blog.penielcho.com/${this.$route.params.slug}`">Link</nuxt-link>
+        <!-- <nuxt-link :to="`https://www.blog.penielcho.com/${this.$route.params.slug}`">Link</nuxt-link> -->
 
         <Prevnext :prev="prev" :next="next" />
 
@@ -118,5 +118,9 @@ export default {
 <style scpoed>
 .custom-text{
     word-break: keep-all;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
