@@ -99,12 +99,12 @@ export default {
             hid: 'og:image',
             property: 'og:image',
             // content: this.article.img
-            content: `https://github.com/thepenielcho/Blog/tree/main/assets/resources/${this.article.img}`
+            content: `https://raw.githubusercontent.com/thepenielcho/Blog/main/assets/resources/${this.article.img}`
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: `https://github.com/thepenielcho/Blog/tree/main/assets/resources/${this.article.img}`
+            content: `https://raw.githubusercontent.com/thepenielcho/Blog/main/assets/resources/${this.article.img}`
             },
             {
             hid: 'og:image:alt',
