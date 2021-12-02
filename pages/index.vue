@@ -15,7 +15,7 @@
             <div class="py-3 md:py-4 px-3 md:px-6">
               <div>
                     <p class="mb-1 md:mb-1 text-sm md:text-sm text-gray-400">{{ftarticle.category}}</p>
-                    <h3 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold text-gray-700 transition group-hover:text-blue-500 group-hover:duration-500">{{ ftarticle.title }}</h3>
+                    <h3 class="custom-text mb-1 md:mb-1.5 text-lg md:text-xl font-semibold text-gray-700 transition group-hover:text-blue-500 group-hover:duration-500">{{ ftarticle.title }}</h3>
                     <p class="mb-1 md:mb-1.5 text-sm md:text-base text-gray-500 custom-text">{{ftarticle.description}}</p>
                     <p class="text-sm md:text-sm text-gray-400">{{ ftarticle.datetime }}</p>
               </div>
@@ -49,7 +49,7 @@
               <div class="article-inner flex justify-between border-t py-6 border-gray-200">
                 <div class="w-full md:w-4/6">
                     <p class="mb-1 md:mb-1 text-sm md:text-sm text-gray-400">{{article.category}}</p>
-                    <h3 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold text-gray-700 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h3>
+                    <h3 class="custom-text mb-1 md:mb-1.5 text-lg md:text-xl font-semibold text-gray-700 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h3>
                     <p class="mb-1 md:mb-1.5 text-sm md:text-base text-gray-500 custom-text">{{article.description}}</p>
                     <p class="text-sm md:text-sm text-gray-400">{{ article.datetime }}</p>
                 </div>
