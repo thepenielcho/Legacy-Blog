@@ -125,7 +125,7 @@ jobs:
 ```vue
 <template>
 	...
-	{{formatDate(article.createdAt)}} #ko 옵션 기준 위 속성값은 2021년 12월 7일과 같이 표시된다.
+	{{formatDate(article.createdAt)}} <!--ko 옵션 기준 위 속성값은 2021년 12월 7일과 같이 표시된다.-->
 	...
 </template>
 
@@ -134,7 +134,7 @@ export default{
     methods: {
         formatDate(date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(date).toLocaleDateString('ko', options) #en 등도 가능
+        return new Date(date).toLocaleDateString('ko', options) //en 등도 가능
         }
     },
 }
