@@ -112,6 +112,37 @@ jobs:
 
 이렇게 수정해주면 끝! 만약 위와 같은 설정이 없이 바로 배포하게 된다면, 매 배포마다 배포 당일의 일자로 createdAt / updatedAt 일자가 바뀌게 된다. 만약 커스텀 CI 툴을 사용한다면 반드시 수정해주자.
 
+## 함수 사용
+
+단순히 날짜 순으로 요소 배열을 할 것이 아니라 화면 상 날짜를 보여주기 위해 createdAt 속성을 사용한다면, 해당 속성값을 바로 사용할 수 없다. 이는 createdAt, updatedAt의 속성값의 기본 형태가 다음과 같기 때문이다.
+
+```javascript
+2021-12-09T07:31:56.000Z
+```
+
+단순히 날짜가 표시된 앞 부분을 떼어와도 좋지만, 보다 친절하게 날짜를 표시할 수도 있다. 이 경우 사용가능한 함수 및 그 활용은 아래와 같다.
+
+```vue
+<template>
+	...
+	{{formatDate(article.createdAt)}} #ko 옵션 기준 위 속성값은 2021년 12월 7일과 같이 표시된다.
+	...
+</template>
+
+<script>
+export default{
+    methods: {
+        formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('ko', options) #en 등도 가능
+        }
+    },
+}
+</script>
+```
+
+
+
 ### 여담
 
 기존 [`nuxt-content-git` 공식 문서](https://github.com/dword-design/nuxt-content-git)에는 커스텀 CI 툴을 이용한 배포 시 에러에 관한 내용이 없었다. 이는 21년 11월 26일자로 추가되었는데, 본인이 GitHub Actions를 통해 배포한 웹사이트에 적용이 안되어 이슈를 남긴 것이 계기가 되었다. 사용 규모가 작은 모듈이긴 하지만 이슈 남긴 내용이 공식 문서에 추가된 경험은 처음이라 본 포스팅을 통해 흔적을 남겨본다.
