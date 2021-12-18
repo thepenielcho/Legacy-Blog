@@ -38,7 +38,7 @@ export default {
     head() {
         return {
             title: this.article.title,
-            desciption: this.article.desciption,
+            description: this.article.description,
             htmlAttrs: {
             lang: 'ko'
             },
