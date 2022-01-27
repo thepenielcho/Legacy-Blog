@@ -3,7 +3,7 @@ title: Netlify로 배포한 웹사이트에 Google Analytics 구글 애널리틱
 description: Netlify로 배포한 웹사이트에 구글 애널리틱스를 연결하는 법을 알아보자.
 slug: google-analytics-netlify
 img: google-analytics.png
-datetime: 2021. 01. 27.
+datetime: 2022. 01. 27.
 category: 웹_개발
 categoryeng: front-end
 author: 조용주
