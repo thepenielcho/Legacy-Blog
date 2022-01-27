@@ -1,5 +1,5 @@
 ---
-title: GitHub Pages로 배포한 웹사이트에 Google Analytics 연결하기
+title: GitHub Pages로 배포한 웹사이트에 Google Analytics 구글 애널리틱스 연결하기
 description: 깃헙 페이지로 배포한 웹사이트에 구글 애널리틱스를 연결하는 법을 알아보자.
 slug: google-analytics-for-github-pages
 img: google-analytics.png
