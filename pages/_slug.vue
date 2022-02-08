@@ -94,4 +94,10 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+code::before {
+    content: none !important;
+}
+code::after {
+    content: none !important;
+}
 </style>
