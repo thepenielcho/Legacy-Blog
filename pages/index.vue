@@ -325,4 +325,14 @@ export default {
   height: 100%;
   object-fit: cover;
 }
+.trygr{
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    overflow: hidden;
+    background-size: 200%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(115deg, rgb(12, 0, 96), rgb(98, 89, 156), rgb(255, 247, 53));
+    animation: 10s ease 0s infinite normal none running jYFErj;
+}
 </style>

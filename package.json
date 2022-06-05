@@ -12,12 +12,18 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/line-clamp": "^0.3.1",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "nuxt-content-git": "^2.0.14"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.0",
-    "postcss": "^8.3.5"
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
   }
 }
